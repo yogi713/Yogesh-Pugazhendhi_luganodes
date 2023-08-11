@@ -169,13 +169,15 @@ body{
 }
 .container4{
     display: flex;
+    justify-content: left;
     padding: 0;
-    /* border: solid 1px green; */
+    /* border: solid 1px black; */
     padding: 100px 100px;
 }
 .laptop-details-container{
     display: flex;
     flex-direction: column;
+    /* border: solid 1px black; */
     gap: 30px;
 }
 .after-tick{
@@ -183,11 +185,13 @@ body{
     gap: 30px;
 }
 .details-div{
+    /* border: solid 1px black; */
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 .details-heading{
+    
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
@@ -201,8 +205,7 @@ body{
     /* border: solid 1px green; */
     padding: 20px 100px;
 }
-.heading5{
-    
+.heading5{ 
     font-size: 36px;
     font-weight: 600;
     font-family: neue-haas-grotesk-display,sans-serif;
@@ -210,7 +213,6 @@ body{
     letter-spacing: -1px;
     line-height: 44px;
 }
-
 .sentence5{
     text-align: center;
     color: rgb(71 84 103);
@@ -219,10 +221,9 @@ body{
     font-family: Inter,sans-serif;
 }
 .container6{
-    padding: 100px 100px 100px 100px;
+    padding: 0px 100px 100px 100px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
 }
 .box{
     border-left: solid 2px rgb(190 30 46);
