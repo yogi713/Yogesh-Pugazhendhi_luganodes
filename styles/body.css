@@ -170,7 +170,7 @@ body{
 .container4{
     display: flex;
     padding: 0;
-    border: solid 1px green;
+    /* border: solid 1px green; */
     padding: 100px 100px;
 }
 .laptop-details-container{
@@ -198,8 +198,8 @@ body{
     align-items: center;
     justify-content: center;
     gap: 50px;
-    border: solid 1px green;
-    padding: 100px;
+    /* border: solid 1px green; */
+    padding: 20px 100px;
 }
 .heading5{
     
@@ -219,7 +219,7 @@ body{
     font-family: Inter,sans-serif;
 }
 .container6{
-    padding: 100px;
+    padding: 0px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
