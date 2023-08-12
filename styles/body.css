@@ -44,10 +44,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgb(255, 255, 255);
    
     top:70px;
     padding: 16px 112px;
+}
+.header2 div img{
+    width: 100%;
 }
 .details-container{
     display: flex;
@@ -371,7 +374,7 @@ body{
 .flex10{
     display: flex;
     justify-content: space-between;
-    /* border: solid 1px black; */
+   
     margin: 100px 110px;
 }
 .flex10-div{
@@ -379,6 +382,9 @@ body{
     flex-direction: column;
     gap: 30px;
     align-items:start;
+}
+.flex10 div button{
+    cursor: pointer;
 }
 .f102{
     font-size: 36px;
@@ -399,7 +405,7 @@ body{
     
 }
 .services-container{
-    /* border: solid 1px black; */
+   
     margin: 0px 110px;
     margin-bottom: 150px;
     padding: 20px;
@@ -411,7 +417,7 @@ body{
 .main-div{
     display: flex;
     column-gap: 50px;
-    /* border: solid 1px red; */
+   
     border-radius: 10px;
     cursor: pointer;
     align-items: top;
@@ -447,7 +453,7 @@ body{
     -webkit-filter: invert(100%);
     transform: scale(2);
     position: relative;
-    /* border: solid 1px black; */
+   
 }
 .heading-container{
     display: flex;
@@ -460,11 +466,14 @@ body{
     padding: 50px 0px;
 }
 .review-container{
+    border: solid 1px black;
     display: grid;
     column-gap: 20px;
+    row-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: rgb(249 250 251);
-    padding-bottom: 250px;
+   
+    padding-bottom: 200px;
 }
 .review-div{
     display: flex;
@@ -473,28 +482,50 @@ body{
     align-items: start;
     padding: 25px;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 15px;   
+}
+.review-image{
+   
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: left;
 }
 .review-div img{
-    width: 250px;
+    max-width: 170px;
 }
 .review-color1,
 .review-color2,
 .review-color3,
 .review-color4,
-.review-color5,
-.review-color6{
+.review-color5{
     padding: 16px 24px;  
+   
+    height: 300px;
 }
 .review-color1{
     background: linear-gradient(white,
      rgba(84, 180, 53, 0.2)); 
 }
+.review-color2{
+    background: linear-gradient(white, rgba(101, 39, 190, 0.2));
+}
+.review-color3{
+    background: linear-gradient(white, rgba(235, 0, 41, 0.2));
+}
+.review-color4{
+    background: linear-gradient(white, rgba(119, 119, 119, 0.2));
+}
+.review-color5{
+    background: linear-gradient(white, rgba(6, 143, 255, 0.2));
+}
 .review1{
+   
     color: rgb(52 64 84);
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 40px;
+    height: 170px;
 }
 
 .review2{
@@ -504,8 +535,9 @@ body{
 }
 .review3{
     color: rgb(52 64 84);
+   
 }
-        /* FOOTER */
+       
 .footer{
     padding: 20px 100px;
     display: flex;
