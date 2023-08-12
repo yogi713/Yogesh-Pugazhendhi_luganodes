@@ -16,7 +16,8 @@
 @media(max-width: 1095px){
     .container4{
         flex-direction: column;
-    } */
+        gap: 40px;
+    } 
     .laptop-pic{
         width: 0px;
     }
@@ -124,5 +125,33 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+}
+@media(max-width:767px){
+    .flex10{
+        margin-bottom: 40px;
+        flex-direction: column;
+        gap: 20px;
+        margin: 100px 10px;
+    }
+    .flex10-div{
+        align-items: center;
+    }
+    .view-all{
+        width:100%;
+    }
+    .f103{
+        text-align: center;
+    }
+}
+@media(max-width:910px){
+    .services-container{
+        grid-template-columns: 1fr;
+        /* text-align: start; */
+    }
+}
+@media(max-width:640px){
+    .services-container{
+        margin: 0px 0px;
     }
 }

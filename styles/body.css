@@ -170,8 +170,15 @@ body{
     display: flex;
     justify-content: left;
     padding: 0;
-   
-    padding: 20px 100px 100px 100px;
+   padding: 100px;
+    padding-top: 20px;
+}
+.laptop-div{
+    display: flex;
+}
+.laptop-pic{
+    width: 100%;
+    object-fit: contain;
 }
 .laptop-details-container{
     display: flex;
@@ -252,21 +259,22 @@ body{
     gap: 30px;
     background-color: rgb(249 250 251);
 }
-.p1,.c8p1, .h91{
+.p1,.c8p1, .h91, .f101,.testimonial{
     font-size: 16px;
     line-height: 24px;
     color: rgb(145 23 56);
     font-weight:600;
     text-align: center;
 }
-.p2, .c8p2, .h92{
+.p2, .c8p2, .h92, .f102, .serv1, .trusted{
     text-align: center;
     font-family: neue-haas-grotesk-display,sans-serif;
     font-size: 36px;
+    letter-spacing: -2px;
     color: rgb(16 24 40);
     font-weight: 600;
 }
-.p3, .c8p3, .h93{
+.p3, .c8p3, .h93, .f103, .serv2, .story{
     color: rgb(71 84 103);
     font-size: 20px;
     text-align: center;
@@ -352,10 +360,167 @@ body{
 .check{
     display: flex;
     width: 130px;
+    border: solid 1px rgb(208 213 221);
+    padding: 24px 27px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px inset rgb(152 162 179);
 }
 .grid9 img{
     width: 100%;
 }
+.flex10{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px black; */
+    margin: 100px 110px;
+}
+.flex10-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items:start;
+}
+.f102{
+    font-size: 36px;
+}
+.f103{
+    text-align:start;
+}
+.view-all{
+    color: rgb(255, 255, 255);
+    background-color: rgb(190 30 46);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    white-space: nowrap;
+    
+}
+.services-container{
+    /* border: solid 1px black; */
+    margin: 0px 110px;
+    margin-bottom: 150px;
+    padding: 20px;
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+.main-div{
+    display: flex;
+    column-gap: 50px;
+    /* border: solid 1px red; */
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: top;
+    padding: 48px 30px;
+    background-color: rgb(249 250 251);
+    box-shadow:  1px 1px 3px inset rgb(201, 201, 201);
+    transition: box-shadow 0.5s;
+}
+.main-div:hover{
+    box-shadow:  -3px -3px 3px inset rgb(201, 201, 201);
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+.text-div button{
+    border-radius: 10px;
+    border: none;
+    color: rgb(190 30 46);
+    background-color: rgb(250 224 224);
+    font-weight: 600;
+}
+.serv1{
+    font-size: 27px;
+    letter-spacing: -1px;
+}
+.serv1, .serv2{
+    text-align: start;
+}
+.link-div div{
+    -webkit-filter: invert(100%);
+    transform: scale(2);
+    position: relative;
+    /* border: solid 1px black; */
+}
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(249 250 251);
+    padding: 50px 0px;
+}
+.review-container{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(249 250 251);
+    padding-bottom: 250px;
+}
+.review-div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+.review-div img{
+    width: 250px;
+}
+.review-color1,
+.review-color2,
+.review-color3,
+.review-color4,
+.review-color5,
+.review-color6{
+    padding: 16px 24px;  
+}
+.review-color1{
+    background: linear-gradient(white,
+     rgba(84, 180, 53, 0.2)); 
+}
+.review-color2{
+
+}
+.review-color3{
+    
+}
+.review-color4{
+    
+}
+.review-color5{
+    
+}
+.review-color6{
+    
+}
+.review1{
+    color: rgb(52 64 84);
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.review2{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 1000;
+}
+.review3{
+    color: rgb(52 64 84);
+}
+        /* FOOTER */
 .footer{
     padding: 20px 100px;
     display: flex;
