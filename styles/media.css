@@ -179,6 +179,9 @@
     .article-container{
         flex-direction: column;
     }
+    .a3{
+        white-space: nowrap;
+    }
     .article-div{
         width: 100%;
         padding: 0px;
