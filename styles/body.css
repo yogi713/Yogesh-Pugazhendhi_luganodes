@@ -272,14 +272,14 @@ body{
     gap: 30px;
     background-color: rgb(249 250 251);
 }
-.p1,.c8p1, .h91, .f101,.testimonial{
+.p1,.c8p1, .h91, .f101,.testimonial, .a1{
     font-size: 16px;
     line-height: 24px;
     color: rgb(145 23 56);
     font-weight:600;
     text-align: center;
 }
-.p2, .c8p2, .h92, .f102, .serv1, .trusted, .ques{
+.p2, .c8p2, .h92, .f102, .serv1, .trusted, .ques, .a2{
     text-align: center;
     font-family: neue-haas-grotesk-display,sans-serif;
     font-size: 36px;
@@ -287,7 +287,7 @@ body{
     color: rgb(16 24 40);
     font-weight: 600;
 }
-.p3, .c8p3, .h93, .f103, .serv2, .story, .we{
+.p3, .c8p3, .h93, .f103, .serv2, .story, .we, .a3{
     color: rgb(71 84 103);
     font-size: 20px;
     text-align: center;
@@ -546,14 +546,72 @@ body{
 }
 .review3{
     color: rgb(52 64 84);
+}
+
+.article-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    text-align: start;
+    /* border: solid 1px black; */
+    padding: 100px;
+    gap: 30px;
+}
+.article-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+.article-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* border: solid 1px black; */
+}
+.letters-link-div{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 10px;
+    /* border: solid 1px black; */
    
 }
+.letters-div{
+    display: flex;
+    flex-direction: column;
+   
+    align-items:start;
+    gap: 25px;
+   
+}
+.a1, .a2, .a3{
+    text-align: left;
+}
+.a1{
+    font-size:14px;
+}
+.a2{
+    font-size:23px;
+    letter-spacing: -1px;
+}
+.a3{
+    font-size: 15px;
+}
+.arrow-div img{
+    width: 10px;
+    border: none;
+    padding: 15px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 15px;
+}
+
 .question-container{
     text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid 1px black; */
+   
     margin: 10px;
 }
 .question-container-1{
@@ -563,7 +621,7 @@ body{
     text-align: left;
 }
 .ques-we-div{
-    /* border: solid 1px black; */
+   
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -577,7 +635,8 @@ body{
 .map-div img{
     width: 100%;
 }
-       /* FOOTER */
+
+      
 .footer{
     padding: 20px 100px;
     display: flex;
