@@ -178,9 +178,7 @@
 @media(max-width:1000px){
     .article-container{
         flex-direction: column;
-    }
-    .a3{
-        white-space: nowrap;
+        padding: 0;
     }
     .article-div{
         width: 100%;
