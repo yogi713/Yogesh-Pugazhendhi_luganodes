@@ -477,7 +477,7 @@ body{
     padding: 50px 0px;
 }
 .review-container{
-    border: solid 1px black;
+   
     display: grid;
     column-gap: 20px;
     row-gap: 20px;
@@ -723,7 +723,7 @@ body{
     display: flex;
     flex-direction: row !important;
     justify-content: space-between;
-    /* border: solid 1px black; */
+   
     text-align: start;
 }
 
