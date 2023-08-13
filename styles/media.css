@@ -185,3 +185,18 @@
         padding: 0px;
     }
 }
+@media(max-width:1013px){
+    .sub-container{
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .new-products{
+        max-width: max-content;
+    }
+    .sub-container-1{
+        align-items: center;
+    }
+}

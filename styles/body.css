@@ -279,7 +279,7 @@ body{
     font-weight:600;
     text-align: center;
 }
-.p2, .c8p2, .h92, .f102, .serv1, .trusted, .ques, .a2{
+.p2, .c8p2, .h92, .f102, .serv1, .trusted, .ques, .a2 {
     text-align: center;
     font-family: neue-haas-grotesk-display,sans-serif;
     font-size: 36px;
@@ -553,7 +553,7 @@ body{
     justify-content: space-between;
     align-items: top;
     text-align: start;
-    /* border: solid 1px black; */
+   
     padding: 100px;
     gap: 30px;
 }
@@ -567,14 +567,14 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    /* border: solid 1px black; */
+   
 }
 .letters-link-div{
     display: flex;
     align-items: top;
     justify-content: space-between;
     padding: 10px;
-    /* border: solid 1px black; */
+   
    
 }
 .letters-div{
@@ -606,12 +606,67 @@ body{
     border-radius: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-container{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgb(249 250 251);
+    padding: 96px 72px;
+    margin: 6rem 7rem;
+}
+.sub-container img{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+}
+.sub-container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.updates{
+    font-size: 27px;
+    font-weight: 600;
+}
+.new-products{
+    color: rgb(71 84 103);
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 400px;
+}
+.sub-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sub-container-2 svg{
+    color: rgb(84 180 53);
+}
 .question-container{
     text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-   
     margin: 10px;
 }
 .question-container-1{
@@ -649,7 +704,7 @@ body{
     display: flex;
     flex-direction: column;
     color: rgb(236 136 136);
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 .products-div a, 
 .resource-div a,
@@ -657,6 +712,7 @@ body{
 .social-div a{
     color: white;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 
