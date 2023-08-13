@@ -698,6 +698,7 @@ body{
     justify-content: space-between;
     align-items: top;
     text-align: center;
+    gap: 40px;
     background-color: rgb(190 30 46);
 }
 .footer div{
@@ -706,6 +707,26 @@ body{
     color: rgb(236 136 136);
     margin-bottom: 10px;
 }
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+}
+.luganodes, .provider{
+    width: 40%;
+}
+.secure{
+    color: white !important;
+}
+.address-div{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    /* border: solid 1px black; */
+    text-align: start;
+}
+
 .products-div a, 
 .resource-div a,
 .company-div a,
@@ -714,5 +735,17 @@ body{
     margin-bottom: 10px;
     text-decoration: none;
 }
-
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(145 23 56);
+    color: #E55C5C;
+    line-height: 80px;
+    padding: 0px 100px;
+}
+.links-div a{
+    color: #E55C5C;
+    margin-right: 10px;
+}
 
