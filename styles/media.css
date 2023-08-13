@@ -195,3 +195,10 @@
         gap: 30px;
     }
 }
+@media(max-width:1013px){
+    .last{
+        flex-direction: column;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
